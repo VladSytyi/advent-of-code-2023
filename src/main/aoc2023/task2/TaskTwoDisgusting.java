@@ -10,8 +10,9 @@ import java.util.stream.Stream;
 
 import static java.nio.file.Path.of;
 
-public class Task2Old {
+public class TaskTwoDisgusting {
 
+    // This is Disgusting version, but gives the correct answer
 
     // link : https://adventofcode.com/2023/day/2
 
