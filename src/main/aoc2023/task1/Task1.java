@@ -67,9 +67,9 @@ public class Task1 {
             return lines.map( e -> wordToNumbers(e, corrects))
                     .map( e -> wordToNumbers(e, numbers))
                     .map(Task1::replaceLetters)
-                    .peek(System.out::println)
+                    //.peek(System.out::println)
                     .map(Task1::extractCalibrationValue)
-                    .peek(System.out::println)
+                    //.peek(System.out::println)
                     .map(Integer::parseInt)
                     .reduce(Integer::sum)
                     .orElseThrow(() -> new RuntimeException("smth went wrong"));
